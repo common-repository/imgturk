@@ -1,0 +1,19 @@
+.imgturk-admin {
+    margin-top: 16px;
+}
+
+.imgturk-admin legend {
+    float: left;
+    line-height: 16px;
+    margin-top: 1px;
+}
+
+.imgturk-admin .typevalues {
+    float: left;
+    margin-left: 16px;
+}
+
+.imgturk-admin .typevalues label {
+    display: block;
+    height: 1em;
+}

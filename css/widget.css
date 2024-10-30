@@ -1,0 +1,60 @@
+.imgturk-media {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    margin-top: -4px;
+    margin-left: -4px;
+    margin-right: -4px;
+}
+
+.imgturk-media-item {
+    width: 33.33%;
+    flex: 0 0 auto;
+    border: none !important;
+    padding: 0;
+    margin: 0 0 2px;
+    padding-bottom: 33.33%;
+    display: table;
+
+    position: relative;
+}
+
+.imgturk-media-item a {
+    display: block;
+
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    right: 4px;
+    bottom: 4px;
+
+    text-decoration: none;
+    box-shadow: none;
+}
+
+.imgturk-media-item a:hover {
+    box-shadow: none;
+}
+
+.imgturk-media-item img {
+    display: block;
+    transition: opacity 0.5s;
+    -webkit-transition: opacity 0.5s;
+    -moz-transition: opacity 0.5s;
+    -o-transition: opacity 0.5s;
+
+    opacity: 0;
+
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.imgturk-media-item img.loaded {
+    opacity: 1;
+}
+
+.imgturk-media.imgturk-error {
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.5);
+}
